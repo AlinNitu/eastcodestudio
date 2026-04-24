@@ -39,7 +39,7 @@ const ServicesSection = () => {
             Services We Offer
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Access top-tier engineering talent from Romania, ready to integrate seamlessly with your team.
+            Access top-tier engineering talent, ready to integrate seamlessly with your team.
           </p>
         </div>
 

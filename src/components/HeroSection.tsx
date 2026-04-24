@@ -26,7 +26,7 @@ const HeroSection = () => {
           <div className="inline-flex items-center gap-2 bg-primary-foreground/10 backdrop-blur-sm rounded-full px-4 py-2 mb-8 animate-fade-up">
             <div className="w-2 h-2 rounded-full bg-accent animate-pulse" />
             <span className="text-primary-foreground/90 text-sm font-medium">
-              Premium Development Solutions from Romania
+              Premium Development Solutions
             </span>
           </div>
 
@@ -44,7 +44,7 @@ const HeroSection = () => {
             className="text-xl md:text-2xl text-primary-foreground/70 max-w-2xl mb-10 leading-relaxed animate-fade-up"
             style={{ animationDelay: '200ms' }}
           >
-            Access Romania's top software talent. Developers, DevOps, QA, and Product Managers ready to accelerate your projects.
+            Access top software talent. Developers, DevOps, QA, and Product Managers ready to accelerate your projects.
           </p>
 
           {/* CTAs */}

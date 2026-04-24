@@ -16,7 +16,7 @@ const Footer = () => {
               <span className="text-primary-foreground text-xl font-bold">East Code Studio</span>
             </div>
             <p className="text-primary-foreground/70 max-w-sm leading-relaxed mb-6">
-              Premium software development solutions from Romania, serving EU and US companies with excellence.
+              Premium software development solutions, serving EU and US companies with excellence.
             </p>
             <div className="flex items-center gap-2 text-primary-foreground/60">
               <MapPin className="w-4 h-4" />
