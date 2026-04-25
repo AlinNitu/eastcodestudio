@@ -1,25 +1,25 @@
-import { CheckCircle, Globe, Clock, Award } from "lucide-react";
+import { CheckCircle, Globe, Clock, Award, Shield } from "lucide-react";
 
 const benefits = [
   {
     icon: Globe,
-    title: "EU & US Time Zone Coverage",
-    description: "Our Romanian-based teams work hours that overlap with both European and American business schedules.",
+    title: "EU & US Time Zone Overlap",
+    description: "Eastern European based engineers who work your hours. Real-time collaboration, not async handoffs.",
   },
   {
-    icon: Award,
-    title: "Top Engineering Talent",
-    description: "Romania ranks among the top countries for software engineering education and expertise.",
+    icon: Shield,
+    title: "Vetted QA Specialists",
+    description: "Every engineer is pre-screened for test automation expertise. No generalists, no manual-only testers.",
   },
   {
     icon: Clock,
-    title: "Rapid Team Scaling",
-    description: "Quickly scale your development capacity without the overhead of traditional hiring.",
+    title: "Start in Days, Not Months",
+    description: "Skip the 3-month hiring cycle. Get matched with available QA engineers within a week.",
   },
   {
-    icon: CheckCircle,
-    title: "Proven Track Record",
-    description: "We've successfully delivered projects for startups and enterprises across multiple industries.",
+    icon: Award,
+    title: "Startup & Scaleup Focus",
+    description: "We understand fast-moving teams. Our engineers adapt quickly and hit the ground running.",
   },
 ];
 
@@ -29,16 +29,16 @@ const WhyChooseUs = () => {
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <span className="text-accent font-semibold text-sm uppercase tracking-wider">Why Choose Us</span>
+            <span className="text-accent font-semibold text-sm uppercase tracking-wider">Why East Code Studio</span>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mt-3 mb-6">
-              Your Trusted Development Partner
+              QA Engineers Who Actually Ship
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              Based in Romania, East Code Studio bridges the gap between Eastern European engineering excellence and global business needs. We provide dedicated teams that feel like an extension of your own.
+              Hiring strong test automation engineers is hard. We've already done the vetting. Our QA engineers integrate into your existing workflows, write stable tests, and help your developers move faster — not slower.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4">
-              {["English Fluency", "Agile Methodology", "Transparent Communication", "Cultural Alignment"].map((item) => (
+              {["Selenium, Playwright, Cypress", "Java, Python, TypeScript", "CI/CD Pipeline Experts", "Flexible Contractor Model"].map((item) => (
                 <div key={item} className="flex items-center gap-3">
                   <div className="w-5 h-5 rounded-full bg-accent/20 flex items-center justify-center">
                     <CheckCircle className="w-3 h-3 text-accent" />

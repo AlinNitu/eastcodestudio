@@ -16,7 +16,7 @@ const Footer = () => {
               <span className="text-primary-foreground text-xl font-bold">East Code Studio</span>
             </div>
             <p className="text-primary-foreground/70 max-w-sm leading-relaxed mb-6">
-              Premium software development solutions from Romania, serving EU and US companies with excellence.
+              QA experts on demand for startups and scaleups. Serving EU and US companies.
             </p>
             <div className="flex items-center gap-2 text-primary-foreground/60">
               <MapPin className="w-4 h-4" />
@@ -28,7 +28,7 @@ const Footer = () => {
           <div>
             <h4 className="text-primary-foreground font-semibold mb-4">Services</h4>
             <ul className="space-y-3">
-              {["Software Developers", "DevOps Engineers", "QA Engineers", "Test Automation", "Product Managers"].map((service) => (
+              {["End-to-End Test Automation", "CI/CD Test Integration", "Test Strategy & Architecture", "API & Performance Testing", "Multi-Stack QA Engineers"].map((service) => (
                 <li key={service}>
                   <a href="#services" className="text-primary-foreground/70 hover:text-accent transition-colors text-sm">
                     {service}

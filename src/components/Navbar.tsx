@@ -59,9 +59,11 @@ const Navbar = () => {
                 {link.label}
               </a>
             ))}
-            <Button variant={isScrolled ? "default" : "hero"} size="default">
-              Get Started
-            </Button>
+            <a href="https://calendly.com/alin-eastcodestudio/30min" target="_blank" rel="noopener noreferrer">
+              <Button variant={isScrolled ? "default" : "hero"} size="default">
+                Book a Call
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -91,9 +93,11 @@ const Navbar = () => {
                   {link.label}
                 </a>
               ))}
-              <Button variant="default" size="lg" className="mt-4">
-                Get Started
-              </Button>
+              <a href="https://calendly.com/alin-eastcodestudio/30min" target="_blank" rel="noopener noreferrer">
+                <Button variant="default" size="lg" className="mt-4">
+                  Book a Call
+                </Button>
+              </a>
             </div>
           </div>
         )}
