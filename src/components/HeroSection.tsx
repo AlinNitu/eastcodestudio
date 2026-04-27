@@ -36,7 +36,7 @@ const HeroSection = () => {
             style={{ animationDelay: '100ms' }}
           >
             Ship faster with reliable{" "}
-            <span className="text-gradient">Quality Assurance and Test Automation</span>
+            <span className="text-gradient">Quality Assurance</span>
           </h1>
 
           {/* Subheading */}
