@@ -1,4 +1,4 @@
-import { Linkedin, Twitter, Mail, MapPin } from "lucide-react";
+import { Linkedin, Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -43,19 +43,15 @@ const Footer = () => {
             <h4 className="text-primary-foreground font-semibold mb-4">Connect</h4>
             <div className="flex gap-3">
               <a
-                href="#"
+                href="https://www.linkedin.com/company/east-code-studio/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors group"
               >
                 <Linkedin className="w-5 h-5 text-primary-foreground group-hover:text-accent-foreground" />
               </a>
               <a
-                href="#"
-                className="w-10 h-10 rounded-lg bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors group"
-              >
-                <Twitter className="w-5 h-5 text-primary-foreground group-hover:text-accent-foreground" />
-              </a>
-              <a
-                href="#"
+                href="mailto:alin@eastcodestudio.io"
                 className="w-10 h-10 rounded-lg bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-colors group"
               >
                 <Mail className="w-5 h-5 text-primary-foreground group-hover:text-accent-foreground" />
@@ -70,10 +66,10 @@ const Footer = () => {
             © {currentYear} East Code Studio. All rights reserved.
           </p>
           <div className="flex gap-6">
-            <a href="#" className="text-primary-foreground/60 hover:text-primary-foreground text-sm transition-colors">
+            <a href="/privacy" className="text-primary-foreground/60 hover:text-primary-foreground text-sm transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="text-primary-foreground/60 hover:text-primary-foreground text-sm transition-colors">
+            <a href="/terms" className="text-primary-foreground/60 hover:text-primary-foreground text-sm transition-colors">
               Terms of Service
             </a>
           </div>

@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-3">
+          <a href="/" className="flex items-center gap-3">
             <div className={`w-10 h-10 rounded-lg flex items-center justify-center transition-colors ${
               isScrolled ? "bg-primary" : "bg-accent"
             }`}>
